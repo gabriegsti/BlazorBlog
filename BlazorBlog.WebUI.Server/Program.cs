@@ -1,8 +1,11 @@
+using BlazorBlog.Application;
 using BlazorBlog.WebUI.Server.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddApplication();
 builder.Services.AddRazorComponents();
 
 var app = builder.Build();
