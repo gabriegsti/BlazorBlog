@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFE7D72C-D21
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBlog.WebUI.Server", "BlazorBlog.WebUI.Server\BlazorBlog.WebUI.Server.csproj", "{69BF0085-A633-4870-A5F8-384481EA90C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBlog.Domain", "BlazorBlog.Domain\BlazorBlog.Domain.csproj", "{ACA911AB-280B-4445-AC49-8D2CC3B70E16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBlog.Domain", "BlazorBlog.Domain\BlazorBlog.Domain.csproj", "{ACA911AB-280B-4445-AC49-8D2CC3B70E16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBlog.Application", "BlazorBlog.Application\BlazorBlog.Application.csproj", "{D0E34798-2A03-43F0-BFF2-C660640851D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBlog.Application", "BlazorBlog.Application\BlazorBlog.Application.csproj", "{D0E34798-2A03-43F0-BFF2-C660640851D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBlog.Infrastructure", "BlazorBlog.Infrastructure\BlazorBlog.Infrastructure.csproj", "{58097C35-4B2E-4B67-B595-B9AD9C042F06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{D0E34798-2A03-43F0-BFF2-C660640851D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E34798-2A03-43F0-BFF2-C660640851D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E34798-2A03-43F0-BFF2-C660640851D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58097C35-4B2E-4B67-B595-B9AD9C042F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58097C35-4B2E-4B67-B595-B9AD9C042F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58097C35-4B2E-4B67-B595-B9AD9C042F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58097C35-4B2E-4B67-B595-B9AD9C042F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{69BF0085-A633-4870-A5F8-384481EA90C5} = {CFE7D72C-D217-4353-B4B5-C3E4263DF331}
 		{ACA911AB-280B-4445-AC49-8D2CC3B70E16} = {CFE7D72C-D217-4353-B4B5-C3E4263DF331}
 		{D0E34798-2A03-43F0-BFF2-C660640851D3} = {CFE7D72C-D217-4353-B4B5-C3E4263DF331}
+		{58097C35-4B2E-4B67-B595-B9AD9C042F06} = {CFE7D72C-D217-4353-B4B5-C3E4263DF331}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F01D43C9-DEA7-475B-9996-E0745D417349}
