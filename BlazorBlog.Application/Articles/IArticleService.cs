@@ -4,6 +4,6 @@ namespace BlazorBlog.Application.Articles
 {
     public interface IArticleService
     {
-        public List<Article> GetAllArticles();
+        public  Task<List<Article>> GetAllArticlesAsync();
     }
 }
